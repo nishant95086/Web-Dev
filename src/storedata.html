@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Note book</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-[#262626]">
+    <div class="flex justify-center mt-5">
+    <p class="text-white text-xl">Note Book </p>
+    </div>
+    <div class="flex mx-auto w-81 px-3 flex-col ">
+      <div class="">
+        <form
+          action=""
+          id = "sform"
+          class="text-white border-2 rounded-md my-15 w-74 h-45"
+        >
+          <label for="name" class="ml-3 my-3">Name :</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            class="bg-neutral-700 rounded-md mx-3 my-3"
+          /><br />
+          <label for="amo" class="ml-3 my-3">Amount :</label>
+          <input
+            type="text"
+            id="amo"
+            name="amo"
+            class="bg-neutral-700 rounded-md mx-3 my-3"
+          /><br />
+          <label for="date" class="ml-3 my-3">Date :</label>
+          <input
+            type="date"
+            id="date"
+            name="date"
+            class="bg-neutral-700 rounded-md mx-3 my-3 hover:cursor-pointer"
+          /><br />
+          <button
+            type="submit"
+            id="add"
+            class="bg-green-900 w-15 rounded-br-lg rounded-tl-lg mx-[38%] hover:cursor-pointer"
+          >
+            add
+          </button>
+        </form>
+      </div>
+      <div class="text-white border-2 rounded-md h-50 w-74 overflow-y-scroll hbox">
+        <p class="text-center my-3">History</p>
+        <div class="flex justify-between px-3 my-3 bg-neutral-700">
+            <p>Name</p>
+            <p>Amount</p>
+            <p>Date</p>
+            <p>Paid</p>
+        </div>
+      </div>
+    </div>
+    <script src="script3.js"></script>
+  </body>
+</html>
