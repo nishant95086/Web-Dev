@@ -1,6 +1,5 @@
-const link = document.createElement("link");
-link.rel = "stylesheet";
-link.href = "output.css";
+const link = document.createElement("script");
+link.src = "https://unpkg.com/@tailwindcss/browser@4";
 document.head.appendChild(link);
 
 const body = document.querySelector('body');
