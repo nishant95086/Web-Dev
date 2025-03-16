@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet" />
+    <title>wather</title>
+</head>
+<body class="bg-[#262626]">
+    <div class="w-65 h-82 bg-gradient-to-br from-emerald-300 to-indigo-400 rounded-2xl mx-auto my-20">
+        <div class="flex justify-evenly py-4">
+            <input class="bg-white rounded-2xl px-3 h-8 w-45 cityname" type="text" placeholder="enter city name">
+            <div class="w-8 h-8 bg-white rounded-[50%] flex justify-center items-center hover:cursor-pointer hover:bg-blue-100 sbtn">
+                <img class="w-5" src="https://img.icons8.com/?size=96&id=Q2SEGLVjvL7L&format=png">
+            </div>
+        </div>
+        <div>
+            <img class="w-20 mx-auto my-5 skyimg" src="https://img.icons8.com/?siz22 °e=96&id=zAG9SwzkuWD5&format=png">
+            <p class="text-white text-4xl text-center temp">...°c</p>
+            <p class="text-white text-3xl text-center py-2 city">...</p>
+        </div>
+        <div class="flex justify-between mx-5">
+            <div class="flex">
+                <img class="w-10" src="https://img.icons8.com/?size=96&id=Ao3BNxBrPzzO&format=png">
+                <div class="">
+                    <p class="text-white text-[12px] humi">...%</p>
+                    <p class="text-white text-[12px]">Humidity</p>
+                </div>
+            </div>
+            <div>
+                <img class="w-10" src="https://img.icons8.com/?size=96&id=mm1XKRGlhPuc&format=png">
+            </div>
+            <div class="">
+                <p class="text-white text-[12px] wspeed">...km/h</p>
+                <p class="text-white text-[12px]">Wind speed</p>
+            </div>
+        </div>
+    </div>
+    <script src="wather.js"></script>
+</body>
+</html>
